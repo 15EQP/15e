@@ -77,7 +77,8 @@
   } else if (/android/.test(ua)) {
     link.href = 'https://791020.com'
   } else { // 其他设备
-    console.log('您的移动设备暂不支持')
+    link.href = 'https://791020.com'
+//     console.log('您的移动设备暂不支持')
   }
   document.documentElement.addEventListener('touchstart', function (event) {
     if (event.touches.length > 1) {
